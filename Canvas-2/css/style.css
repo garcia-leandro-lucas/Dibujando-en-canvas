@@ -1,0 +1,145 @@
+/*
+Google Fonts
+font-family: 'Roboto', sans-serif;
+*/
+
+
+
+.canvasDisplay a{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+canvas {
+    border : solid 1px;
+    cursor : url('lapizcursor.gif'), default;
+}
+
+i.fas.fa-pencil-alt {
+    color: #dddddd;
+}
+
+i.fas.fa-eraser {
+    color: #dddddd;
+}
+
+.lapiz{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.borrador {
+    padding: 0px 10px;
+}
+
+.herramientas {
+    width: 480px;
+    display: flex;
+}
+
+.tamanoDeLapices {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #000;
+}
+
+.tamanoDeLapices .trazos {
+    margin: 0px 10px;
+}
+
+.controladorDeColores {
+    padding: 0px 10px;
+    border-right: 2px solid #000;
+}
+
+.herramientas {
+    font-family: 'Roboto', sans-serif;
+    width: 480px;
+    display: flex;
+    outline: 1px solid #323232;
+    background-color: #535353;
+    padding: 10px;
+    align-items: center;
+}
+
+.btnGuardar {
+    margin: 0 auto;
+}
+
+.btnGuardarImagen {
+    border: 1px solid #535353;
+    border-radius: 10px;
+    background-color: #424242;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.herramientasPrincipales {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    color: #000;
+    border-right: 2px solid #000;
+}
+
+/*
+.herramientas div:hover{
+    border: solid red 1px;
+}
+
+.herramientas img:hover{
+    border: solid red 1px;
+}
+*/
+.tamanoDeLapices .trazos{
+    background-color: #000;
+}
+
+.tamanoDeLapices .trazos.tx-1{
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+}
+
+.tamanoDeLapices .trazos.tx-2{
+    width:20px;
+    height:20px;
+    border-radius: 20px;
+}
+
+.tamanoDeLapices .trazos.tx-3{
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+}
+
+.tamanoDeLapices .trazos.tx-4{
+    width:40px;
+    height:40px;
+    border-radius: 40px;
+}
+
+
+
+
+/*Mobile*/
+
+@media (max-width: 600px){
+    canvas#canvas {
+        width: 100%;
+    }
+
+    .herramientas {
+        width: 100%;
+    }
+
+
+
+
+
+    
+}
+
